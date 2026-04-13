@@ -34,23 +34,12 @@
                                 </condition>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="4">
-                            <handNote xml:id="h1" script="latin" scope="major">
-                                Lateinische Schreibschrift; verwendet im Titel und in den ersten
-                                Zeilen der Präambel bis einschließlich "Monarchie" (Zeile 6).
-                                Schriftzüge größer und aufrechter.
-                            </handNote>
-                            <handNote xml:id="h2" script="latin" scope="major">
-                                Lateinische Schreibschrift mit stärker geneigten Zügen
-                                ab "haben uns infolge der..." (Zeile 7 der Präambel).
-                            </handNote>
-                            <handNote xml:id="h3" script="kurrent" scope="minor">
-                                Kurrentschrift; ab § 1.
-                            </handNote>
-                            <handNote xml:id="h4" scope="minor">
-                                Möglicherweise anderer Stift oder andere Hand; erkennbar an der
-                                Durchstreichung des zweiten "da" (Zeile 12 der Präambel), was auf
-                                einen Verdopplungsfehler beim Abschreiben hindeutet.
+                        <handDesc hands="1">
+                            <handNote xml:id="h1" scope="sole">
+                                Handschrift mit wechseldem Duktus und einem Wechsel von
+                                lateinischer Schreibschrift und Kurrentschrift.
+                                Nachträgliche Streichung mit einem anderen Stift,
+                                was eventuell auf eine zweite Hand hinweist.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -92,8 +81,6 @@
           <lb n="4"/>der bisherigen im Reichsrat vertretenen
           <lb n="5"/>Königreiche und Länder der Oester=
           <lb n="6"/>reichisch-Ungarischen Monarchie
-        </p>
-                <p hand="#h2" rend="indent">
           <lb n="7"/>haben uns infolge der allgemeinen Auflösung
           <lb n="8"/>des Staates und der völligen
           <subst>
@@ -103,13 +90,18 @@
           <lb n="9"/>seiner Verfassung, <del>und</del> nachdem sich alle übrigen
           <lb n="10"/>Nationen der Monarchie von dem bisherigen, auf
           <lb n="11"/>der pragmatischen Sanktion ruhenden Länder=
-          <lb n="12"/>verbande losgesagt haben, und da <del hand="#h4">da</del> unser
+          <lb n="12"/>verbande losgesagt haben, und da
+          <del>da</del>
+                    <!-- Die Durchstreichung des zweiten "da" von einem anderen
+               Stift, möglicherweise eine andere Hand — nicht mit Sicherheit
+               bestimmbar. -->
+          unser
           <lb n="13"/>Volk auf sich selbst und allein angewiesen
           <lb n="14"/>ist, in der Not des Krieges zu einer provi-
           <lb n="15"/>sorischen Nationalversammlung zusam=
-          <lb n="16"/>menge<subst>
-            <del>schlossen</del>
-            <add>tan</add>
+          <lb n="16"/>men<subst>
+            <del>geschlossen</del>
+            <add>getan</add>
           </subst> und für unser Volk
           <lb n="17"/>und Land die nachstehende provisorische
           <lb n="18"/>Verfassung beschlossen:
@@ -118,8 +110,8 @@
 
             <!-- Erster Titel -->
             <div type="section" n="1">
-                <head hand="#h3" rend="center underline">Erster Titel.</head>
-                <head type="sub" hand="#h3" rend="center">
+                <head hand="#h1" rend="center underline">Erster Titel.</head>
+                <head type="sub" hand="#h1" rend="center">
                     <lb n="1" />Vom Namen, Wesen und <subst>
                         <del>Wappen</del>
                         <add place="above">Zeichen</add>
@@ -128,8 +120,8 @@
                     Staates. </head>
 
                 <div type="paragraph" n="1">
-                    <head hand="#h3" rend="center">§ 1.</head>
-                    <p hand="#h3">
+                    <head hand="#h1" rend="center">§ 1.</head>
+                    <p hand="#h1">
             <lb n="1"/>Die
             <subst>
               <del><unclear reason="illegible">Zugeho</unclear></del>
